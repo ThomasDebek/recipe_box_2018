@@ -1,0 +1,9 @@
+%h1 Recipe Show
+
+%h1= @recipe.title
+%p= @recipe.description
+
+
+= link_to "Edit", edit_recipe_path, class: "btn btn-default"
+= link_to "Destroy", recipe_path, method: :delete, data: { confirm: "Are You sure"}, class: "btn btn-danger"
+= link_to "Back", root_path, class: "btn btn-default"
