@@ -25,7 +25,7 @@
         %h3 Directionss
         #directions
           = f.simple_fields_for :directions do |direction|
-            = render  'directiion_fields', f:direction
+            = render  'direction_fields', f:direction
           .links
             = link_to_add_association 'Add Direction', f, :directions, class:  "btn btn-default add-button"
 
