@@ -20,8 +20,7 @@ gem 'bootstrap-sass', '~> 3.4.0'
 gem 'sassc-rails', '>= 2.0.0'
 gem 'jquery-rails'
 gem 'paperclip', '~> 6.1'
-
-
+gem 'cocoon', '~> 1.2'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
